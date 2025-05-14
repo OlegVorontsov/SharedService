@@ -4,6 +4,12 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>SharedService.Core</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>OlegVorontsov</Authors>
+        <Company>OlegVorontsov</Company>
+        <PackageDescription>SharedService.Core Package</PackageDescription>
+        <RepositoryUrl>https://github.com/OlegVorontsov/SharedService</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
