@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>SharedService.SharedKernel</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>OlegVorontsov</Authors>
         <Company>OlegVorontsov</Company>
         <PackageDescription>SharedService.SharedKernel Package</PackageDescription>
