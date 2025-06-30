@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>SharedService.Core</PackageId>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <Authors>OlegVorontsov</Authors>
         <Company>OlegVorontsov</Company>
         <PackageDescription>SharedService.Core Package</PackageDescription>
@@ -13,9 +13,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.66" />
       <PackageReference Include="FluentValidation" Version="12.0.0" />
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
       <PackageReference Include="Scrutor" Version="6.0.1" />
     </ItemGroup>
 
